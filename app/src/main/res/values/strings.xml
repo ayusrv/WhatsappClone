@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WhatsappClone</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="chats">Chats</string>
+    <string name="status">Status</string>
+    <string name="calls">Calls</string>
+    <string name="status_bar_text">This is a status bar</string>
+    <string name="calls_text">This is a call log</string>
+    <string name="chat_text">This is a chat messages</string>
+</resources>

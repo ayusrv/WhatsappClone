@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#141E27">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#222A35">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/whatsapp"
+            android:textColor="@color/icon"
+            android:textSize="25sp"
+            android:padding="10sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="10sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            >
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/camera_vector"
+                android:layout_marginEnd="15sp"
+                />
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search_vector"
+                android:layout_marginEnd="15sp"
+                />
+
+            <ImageView
+                android:id="@+id/navi"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="5sp"
+                android:src="@drawable/img"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8sp">
+            <ImageView
+                android:id="@+id/group"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_baseline_groups_24"
+                android:layout_marginStart="5dp">
+            </ImageView>
+            <TextView
+                android:id="@+id/chats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chats"
+                android:textColor="@color/icon"
+                android:layout_marginStart="50sp"/>
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status"
+                android:textColor="@color/click"
+                android:layout_marginStart="90sp"/>
+            <TextView
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calls"
+                android:textColor="@color/icon"
+                android:layout_marginStart="90sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status_bar_text"
+            android:textColor="@color/icon"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
